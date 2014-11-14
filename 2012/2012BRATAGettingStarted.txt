@@ -1,0 +1,55 @@
+Harris High School Design Challenge 2012
+
+  *****   BRATA   *****
+  
+To get started with the BRATA framework project, follow these steps:
+
+1. Unzip the BRATA.zip file provided by Harris to a location where you would 
+ like to store it. 
+
+2. Open Eclipse and right click in the Package Explorer and chose "Import..."
+
+3. Select General -> Existing Projects into Workspace
+
+4. Choose "Browse..." next to Select Root Directory and locate the BRATA 
+ folder you unzipped in step 1 and click OK.
+
+5. You should see the BRATA project appear inside the Projects: window. If you 
+ don't, double-check that the root directory is correct. Leave "Copy Projects 
+ into Workspace" and "Add project to working sets" unchecked. Click Finish.
+
+6. Your project should be ready to modify and implement your design!
+ There is a READ-ME.txt file inside the BRATA folder you unzipped that will
+ help with understanding what different parts of the framework do and where
+ to put your code.
+
+Troubleshooting:
+
+If you get errors about "The method ... must override a superclass method" 
+as soon as the project is loaded, do the following:
+1. Right click on the BRATA project in the Package Explorer and choose 
+ Properties
+2. Click Java Compiler on the left side
+3. Make sure "Enable project specific settings" is unckecked
+4. Click Configure Workspace Settings
+5. Set Compiler Compliance Level to 1.6
+6. If a yellow exclamation mark shows up at the bottom of the window, you may 
+ also need to download the Java JRE, if not, then click OK and skip to 13.
+7. If you DO get the yellow exclamation... Click "JREs" next to the yellow 
+ exclamation
+9. Click "Add..."
+10. Click "Standard VM"
+11. Click Directory and find the jre6 directory. Hopefully it's in 
+ C:\Program Files (x86)\Java\. If not, you may have to download and install it.
+     The download link for the jre6 is 
+	 http://download.oracle.com/otn-pub/java/jdk/6u37-b06/jre-6u37-windows-i586.exe,
+	 but you will need administrator priveleges to install it.
+12. If it is, select the jre6 directory and click ok, then finish, then check 
+the jre6 box and click ok again. (Click Yes when it asks to rebuild the 
+project)
+13. From the Project menu, select Clean..., Clean all projects, and click OK.
+14. Celebrate! Whew, NOW it should be fixed. There should be no more red error
+ notifications.
+
+If you have any other issues, don't hesistate to let us at Harris know! We 
+want to get you set up for success!
